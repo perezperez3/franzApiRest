@@ -44,8 +44,7 @@ namespace APICORE.Controllers
                                 vCorreo = rd["vCorreo"].ToString(),
                                 vTelefono = rd["vTelefono"].ToString(),
                                 iEstado = Convert.ToInt32(rd["iEstado"]),
-                                fLatitud = Convert.ToDecimal(rd["fLatitud"]),
-                                fLongitud = Convert.ToDecimal(rd["fLongitud"]),
+                               
 
                             });
                         }
